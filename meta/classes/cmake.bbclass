@@ -124,7 +124,7 @@ cmake_do_configure() {
 
 cmake_do_compile()  {
 	cd ${B}
-	base_do_compile
+	base_do_compile VERBOSE=1
 }
 
 cmake_do_install() {
